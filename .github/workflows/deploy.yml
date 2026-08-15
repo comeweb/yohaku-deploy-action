@@ -18,7 +18,7 @@ concurrency:
 env:
   HASH_FILE: build_hash
   SOURCE_REPO: innei-dev/Yohaku
-  BUILD_COMMAND: pnpm --filter @yohaku/web build:ci
+  BUILD_COMMAND: pnpm --filter @yohaku/web build:ci -- --webpack
   STANDALONE_SUBPATH: standalone/apps/web
 
 jobs:
