@@ -6,7 +6,7 @@
 
 ## Why?
 
-这里的项目关系现在更准确地说是：
+这里的项目关系现在更准确地说是：1
 
 - [Yohaku](https://github.com/Innei/Yohaku) 是当前设计语言与视觉体系已经完全重构后的闭源完整实现。
 - [Shiro](https://github.com/Innei/Shiro) 是更早期的开源来源项目。
