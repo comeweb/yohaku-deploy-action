@@ -96,7 +96,7 @@ git checkout bc07cfa
 
 如果你部署的是旧版 **Shiroi**（monorepo 结构为 `apps/web`），通常保持默认即可；若你的仓库结构不同（例如单仓库直接输出到 `.next/standalone`），请修改 `STANDALONE_SUBPATH`。
 
-## CI 构建与站点 URL 环境变量
+## CI 构建与站点 URL 环境变量1
 
 工作流在 GitHub Actions 里执行 `next build` 时，会通过仓库 **Secrets** 注入 `BASE_URL`、`NEXT_PUBLIC_API_URL` 与 `NEXT_PUBLIC_GATEWAY_URL`，须与服务器 `~/yohaku/.env`（及私有仓库 `Dockerfile` / 模板）一致。
 
